@@ -1,0 +1,43 @@
+# 가상환경
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 환경변수
+.env
+.env.local
+
+# 데이터 파일 (큰 파일)
+*.csv
+*.parquet
+*.xlsx
+data/
+output/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
+
+# 임시파일
+tmp/
+temp/
+*.tmp
