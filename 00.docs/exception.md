@@ -42,7 +42,7 @@ try:
 except (KeyError, TypeError) as e:
     raise RuntimeError("KeyError Or TypeError Occurred") from e
 # Traceback (most recent call last):
-#   File "/Users/jungmo/Desktop/local-repo/github/python/basic/04_exception.py", line 9, in <module>
+#   File "/Users/jungmo/Desktop/local-repo/github/python/01.basic/04_exception.py", line 9, in <module>
 #     print(d["b"])
 #           ~^^^^^
 # KeyError: 'b'
@@ -50,7 +50,7 @@ except (KeyError, TypeError) as e:
 # The above exception was the direct cause of the following exception:
 # 
 # Traceback (most recent call last):
-#   File "/Users/jungmo/Desktop/local-repo/github/python/basic/04_exception.py", line 11, in <module>
+#   File "/Users/jungmo/Desktop/local-repo/github/python/01.basic/04_exception.py", line 11, in <module>
 #     raise RuntimeError("KeyError Or TypeError Occurred") from e
 # RuntimeError: KeyError Or TypeError Occurred
 ```
@@ -86,14 +86,14 @@ try:
 except ValueError as e:
     raise RuntimeError("숫자 파싱 실패") from e
 # Traceback (most recent call last):
-#   File "/Users/jungmo/Desktop/local-repo/github/python/basic/04_exception.py", line 23, in <module>
+#   File "/Users/jungmo/Desktop/local-repo/github/python/01.basic/04_exception.py", line 23, in <module>
 #     int("abc")
 # ValueError: invalid literal for int() with base 10: 'abc'
 # 
 # The above exception was the direct cause of the following exception:
 # 
 # Traceback (most recent call last):
-#   File "/Users/jungmo/Desktop/local-repo/github/python/basic/04_exception.py", line 25, in <module>
+#   File "/Users/jungmo/Desktop/local-repo/github/python/01.basic/04_exception.py", line 25, in <module>
 #     raise RuntimeError("숫자 파싱 실패") from e
 # RuntimeError: 숫자 파싱 실패
 ```
@@ -105,7 +105,7 @@ try:
 except ValueError as e:
     raise RuntimeError("사용자 입력이 잘못됨") from None
 # Traceback (most recent call last):
-#   File "/Users/jungmo/Desktop/local-repo/github/python/basic/04_exception.py", line 32, in <module>
+#   File "/Users/jungmo/Desktop/local-repo/github/python/01.basic/04_exception.py", line 32, in <module>
 #     raise RuntimeError("사용자 입력이 잘못됨") from None
 # RuntimeError: 사용자 입력이 잘못됨
 ```
@@ -122,9 +122,9 @@ def validate_age(age: int) -> None:
 validate_age(-20)
 
 # Traceback (most recent call last):
-#   File "/Users/jungmo/Desktop/local-repo/github/python/basic/04_exception.py", line 42, in <module>
+#   File "/Users/jungmo/Desktop/local-repo/github/python/01.basic/04_exception.py", line 42, in <module>
 #     validate_age(-20)
-#   File "/Users/jungmo/Desktop/local-repo/github/python/basic/04_exception.py", line 40, in validate_age
+#   File "/Users/jungmo/Desktop/local-repo/github/python/01.basic/04_exception.py", line 40, in validate_age
 #     raise DataValidationError("age must be >= 0")
 # DataValidationError: age must be >= 0
 ```
