@@ -1,4 +1,4 @@
-#https://leetcode.com/problems/merge-sorted-array/submissions/1989019825/?envType=study-plan-v2&envId=top-interview-150
+# https://leetcode.com/problems/merge-sorted-array/submissions/1989019825/?envType=study-plan-v2&envId=top-interview-150
 
 from typing import List
 
